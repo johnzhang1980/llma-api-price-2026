@@ -1,0 +1,62 @@
+[
+  {
+    "model": "Claude Sonnet 5",
+    "model_id": "claude-sonnet-5",
+    "input_price": 2.00,
+    "output_price": 10.00,
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "source": "Anthropic 官方定价页（2026-08-24 官方确认 $2/$10 由限时介绍价转为标准价）",
+    "as_of": "2026-08-24",
+    "tier": "standard",
+    "note": "缓存命中价 $0.20 / 1M tokens（同一官方定价页口径）；输入价与输出价之比为 1:5"
+  },
+  {
+    "model": "Claude Opus 5",
+    "model_id": "claude-opus-5",
+    "input_price": 5.00,
+    "output_price": 25.00,
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "source": "Anthropic 官方定价页快照",
+    "as_of": "2026-08-24",
+    "tier": "standard",
+    "note": "缓存命中价官方页未在本次口径中列明，以官方定价页为准，不予推测"
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "model_id": "claude-haiku-4.5",
+    "input_price": 1.00,
+    "output_price": 5.00,
+    "currency": "USD",
+    "unit": "per 1M tokens",
+    "source": "Anthropic 官方定价页快照",
+    "as_of": "2026-08-24",
+    "tier": "standard",
+    "note": "缓存命中价官方页未在本次口径中列明，以官方定价页为准，不予推测"
+  },
+  {
+    "model": "DeepSeek V4-Pro",
+    "model_id": "deepseek-v4-pro",
+    "input_price": null,
+    "output_price": 27.00,
+    "currency": "CNY",
+    "unit": "per 1M tokens",
+    "source": "DeepSeek 官方定价页（2026-08-17 起执行峰谷定价新规）",
+    "as_of": "2026-08-17",
+    "tier": "peak",
+    "note": "高峰时段输出价；输入价官方新规未在该口径中列明，以官方定价页为准，不予臆造"
+  },
+  {
+    "model": "DeepSeek V4-Pro",
+    "model_id": "deepseek-v4-pro",
+    "input_price": null,
+    "output_price": 13.50,
+    "currency": "CNY",
+    "unit": "per 1M tokens",
+    "source": "DeepSeek 官方定价页（2026-08-17 起执行峰谷定价新规）",
+    "as_of": "2026-08-17",
+    "tier": "off_peak",
+    "note": "闲时时段输出价，为高峰价的 50%；输入价官方新规未在该口径中列明，以官方定价页为准，不予臆造"
+  }
+]
