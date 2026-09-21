@@ -1,0 +1,6 @@
+model,model_id,input_price,output_price,currency,unit,source,as_of,tier,note
+Claude Sonnet 5,claude-sonnet-5,2.00,10.00,USD,per 1M tokens,Anthropic 官方定价页（2026-08-24 官方确认 $2/$10 由限时介绍价转为标准价）,2026-08-24,standard,缓存命中价 $0.20 / 1M tokens（同一官方定价页口径）
+Claude Opus 5,claude-opus-5,5.00,25.00,USD,per 1M tokens,Anthropic 官方定价页快照,2026-08-24,standard,缓存命中价以官方定价页为准；不予推测
+Claude Haiku 4.5,claude-haiku-4.5,1.00,5.00,USD,per 1M tokens,Anthropic 官方定价页快照,2026-08-24,standard,缓存命中价以官方定价页为准；不予推测
+DeepSeek V4-Pro,deepseek-v4-pro,,27.00,CNY,per 1M tokens,DeepSeek 官方定价页（2026-08-17 起执行峰谷定价新规）,2026-08-17,peak,高峰时段输出价；输入价官方新规未列明，以官方定价页为准
+DeepSeek V4-Pro,deepseek-v4-pro,,13.50,CNY,per 1M tokens,DeepSeek 官方定价页（2026-08-17 起执行峰谷定价新规）,2026-08-17,off_peak,闲时时段输出价（高峰价 50%）；输入价官方新规未列明，以官方定价页为准
